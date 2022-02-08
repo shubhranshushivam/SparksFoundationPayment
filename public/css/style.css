@@ -126,12 +126,19 @@
   }
 
 @media screen and (max-width: 450px) {
+    .navbar-dark .navbar-toggler {
+        margin-right: 25px;
+        color: rgba(255,255,255,.55);
+        border-color: rgba(255,255,255,.1);
+    }
     .bodybg{
         width: 100% 100%;
         /* height: auto; */
     }
     .content {
+        font-size: 16px;
         left: 0;
+        top: 50%;
         transform: translate(15%, -50%);
         width: 80%;
         height: 60%;
